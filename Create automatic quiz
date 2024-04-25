@@ -1,0 +1,58 @@
+quiz = {
+    "question1": {
+        "question": "............write your question here...........",
+      
+"answer": ".............write correct answer here..........."
+    },
+    "question2": {
+        "question": "............write your question here...........",
+       
+"answer": ".............write correct answer here.........."
+    },
+    "question3": {
+        "question": "............write your question here...........",
+      
+"answer": ".............write correct answer here.........."
+    },
+    "question4": {
+        "question": "............write your question here...........",
+     
+"answer": ".............write correct answer here.........."
+    },"question5": {
+        "question": "............write your question here...........",
+        
+"answer": ".............write correct answer here.........."
+    },"question6": {
+        "question": "............write your question here...........",
+       
+"answer": ".............write correct answer here.........."
+    },"question7": {
+        "question": "............write your question here...........",
+       
+"answer": ".............write correct answer here.........."
+    },
+
+# you can write as many questions as you want
+
+
+score = 0
+
+for key, value in quiz.items():
+    print(value[' question' ])
+    answer = input("Answer? ")
+
+    if answer.lower() == value[ 'answer'] . lower():
+        print('Correct')
+        score = score + 1
+        print("Your score is: " + str(score))
+        print("")
+        print("")
+    else:
+        print("Wrong!")
+        print("The answer is : " + value[ ' answer'])
+        print("Your score is: " + str(score))
+        print("")
+        print("")
+
+print("You got " + str(score) + " out of" + "number of questions here" + "questions correctly")
+print("Your percentage is " + str(int(score/(#number of questions) * 100)) + "%")
