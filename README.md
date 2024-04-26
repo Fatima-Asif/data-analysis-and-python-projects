@@ -1,9 +1,14 @@
-This repository contains some begginer level python projects. These were my classroom projects and assignments. 
+This repository contains some begginer level python projects. These were my classroom projects and assignments. It also contains my two major projects. The details are below:
 
 
-It also contain an data processing model with the "data.csv" file. The details are below:
+A). A basic Banking Management system Using Python
 
-Here's a brief overview of what each section of the code does:
+
+This system allows users to create accounts, define Account Class, deposit and withdraw money, check balances, list all account holders, display & modify account details and close accounts.
+
+
+B). A data Processing Model (With "Data.csv" file). A brief overview of what each section of the code does is given below:
+
 
 1. Importing the Libraries: You imported necessary libraries such as NumPy, Matplotlib, and Pandas.
 2. Importing the Dataset: You loaded your dataset from a CSV file into a Pandas DataFrame and separated the independent variables (features) X and the dependent variable (target) y.
